@@ -1,0 +1,26 @@
+{
+  "name": "Learn-Node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eval $(cat .env) nodemon -r esm",
+    "start": "NODE_ENV=production node -r esm .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.23.0",
+    "apollo-server-express": "^2.23.0",
+    "bcryptjs": "^2.4.3",
+    "consola": "^2.15.3",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "graphql-tools": "^7.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.5"
+  }
+}
